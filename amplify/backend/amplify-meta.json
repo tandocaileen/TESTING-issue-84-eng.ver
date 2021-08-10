@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tyche-dev-192101-authRole",
+      "UnauthRoleArn": "arn:aws:iam::127265140501:role/amplify-tyche-dev-192101-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::127265140501:role/amplify-tyche-dev-192101-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-tyche-dev-192101-deployment",
+      "UnauthRoleName": "amplify-tyche-dev-192101-unauthRole",
+      "StackName": "amplify-tyche-dev-192101",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:127265140501:stack/amplify-tyche-dev-192101/0f772310-f9cd-11eb-a3d1-0ab0b8efbe5b",
+      "AmplifyAppId": "d2nmzwbaac3yxd"
+    }
+  },
+  "auth": {
+    "tycheed845acc": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanism": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-tyche-dev-192101-deployment/amplify-cfn-templates/auth/tycheed845acc-cloudformation-template.yml",
+        "logicalId": "authtycheed845acc"
+      },
+      "lastPushTimeStamp": "2021-08-10T11:40:36.948Z",
+      "output": {
+        "UserPoolId": "ap-northeast-1_pn2Ge2MXn",
+        "AppClientIDWeb": "48i0ualal1jn7vnn9tj4vv3avl",
+        "AppClientID": "5p9641raof13oodcjeo8mms9pq",
+        "IdentityPoolId": "ap-northeast-1:58d83ec2-0992-4931-9200-f116e89bbdec",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-northeast-1:127265140501:userpool/ap-northeast-1_pn2Ge2MXn",
+        "IdentityPoolName": "tycheed845acc_identitypool_ed845acc__dev",
+        "UserPoolName": "tycheed845acc_userpool_ed845acc"
+      },
+      "lastPushDirHash": "NUBmXqdHMynn/DRPrdAC5RIzQuo="
+    }
+  }
+}

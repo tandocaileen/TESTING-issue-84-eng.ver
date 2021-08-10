@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tyche-dev-192101-authRole",
+      "UnauthRoleArn": "arn:aws:iam::127265140501:role/amplify-tyche-dev-192101-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::127265140501:role/amplify-tyche-dev-192101-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-tyche-dev-192101-deployment",
+      "UnauthRoleName": "amplify-tyche-dev-192101-unauthRole",
+      "StackName": "amplify-tyche-dev-192101",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:127265140501:stack/amplify-tyche-dev-192101/0f772310-f9cd-11eb-a3d1-0ab0b8efbe5b",
+      "AmplifyAppId": "d2nmzwbaac3yxd"
+    },
+    "categories": {
+      "auth": {
+        "tycheed845acc": {}
+      }
+    }
+  }
+}
